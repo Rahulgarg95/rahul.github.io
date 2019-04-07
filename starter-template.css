@@ -1,0 +1,131 @@
+html{
+  position: relative;
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  letter-spacing: 1px;
+  color: #152231;
+}
+
+.starter-template {
+  padding: 14rem 1.5rem;
+  text-align: center;
+}
+
+.first-section{
+  background-image: url('cover.jpg');
+  min-height: 100%;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link{
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar-brand{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#box-header{
+  background-color: #152231;
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  letter-spacing: 10px;
+}
+
+.lead{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.about-section,.projects-section,.contact-section{
+  min-height: 100%;
+}
+
+.projects-section{
+  background-image: url('cover.jpg');
+}
+
+.about-header,.projects-header,.contact-header{
+  text-align: center;
+  padding: 4rem;
+}
+
+.img-about{
+  border-radius: 50%;
+  width: 115px;
+  height: 125px;
+}
+
+.about-content{
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.project-link{
+  padding-left: 40px;
+}
+
+.btn-about{
+  text-align: center;
+  padding: 10px;
+  width: 15rem;
+ /* margin-top: 50px;
+  margin-left: 5rem;
+  border-radius: 40px; */
+  background-color: white;
+  border-color: #152231;
+  color: #152231;
+  font-weight: 600;
+  
+}
+
+#projects-img{
+ height: 200px;
+}
+
+#projects-link{
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-sources{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#contact-list{
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-section{
+  color: #152231;
+  padding-top: 50px;
+  
+}
+
+a{
+  color: #152231;
+  font-weight: 600;
+}

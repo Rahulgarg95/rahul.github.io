@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="starter-template.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>My Portfolio!</title>
+  </head>
+
+  <body>
+
+                                            <!-- Home section -->
+      <!-- Navbar Top Fixed -->
+      <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+          <a class="navbar-brand" href="#">Rahul Garg</a>
+        </div>
+          <ul class="nav justify-content-end">
+            <li id="nav-item"><a class="nav-link" href="#about">About </a> </li>
+            <li id="nav-item"><a class="nav-link" href="#projects">Projects </a> </li>
+            <li id="nav-item"><a class="nav-link" href="#skills">Skills </a> </li>
+            <li id="nav-item"><a class="nav-link" tabindex="-1" href="#contact">Contact </a> </li>
+          </ul>
+        </div>
+      </nav>
+    <main role="main" class="first-section">
+      <div class="starter-template">
+        <div class="row justify-content-center">
+          <h1 id="box-header">RAHUL GARG</h1>
+        </div>  
+        <br>
+        <p class="lead">Software Developer / Backend Developer</p>
+      </div>
+
+    </main>
+
+                                        <!-- About Us Section -->
+
+    <section class="about-section" id="about">
+      <h1 class="about-header"> About Me </h1>
+      <div class="container row justify-content-around">
+        <div class="col-sm-12 offset-1">
+          <div class="text-center">
+            <img src="about.PNG" class="img-about" />
+          </div>
+          <p class="about-content">
+            I am self taught web-developer from India. I have completed my graduation in Computers(B.Tech) in 2017 & 
+            currently working as Software Developer in Hewlett Packard Enterprise.
+            Aside from working on technologies like Core Java, Spring Boot, Hibernate, Python(Flask)
+            and database technologies such as MYSQL, PL/SQL, NOSQL (MongoDb).
+            Currently learning cutting edge technologies like data analysis and machine learning.
+          </p>
+
+        </div>
+        <div class="col-10 offset-3">
+                <button type="button" class="btn btn-secondary btn-lg btn-about">Download Resume</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-about">Github Link</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-about">LinkedIn</button>
+        </div>
+      </div>
+    </section>
+
+                                          <!-- Projects Section -->
+
+    <section class="projects-section" id="projects">
+      <h1 class="projects-header">Projects </h1>
+      <div class="container" id="projects-container">
+          <div class="card-deck">
+            <!-- Stock Card  -->
+            <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded">
+              <img src="stock.PNG" class="card-img-top" alt="Stock Project" id="projects-img">
+              <div class="card-body">
+                <h5 class="card-title">Stock Market Analysis</h5>
+                <p class="card-text">Flask based app which fetches stock data of preference from different sources and display the same in graphical form to provide a clear view. </p>
+              </div>  
+              <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#stock-pop">More details... </a></small></div>
+              <!-- Modal -->
+              <div class="modal fade" id="stock-pop" tabindex="-1" role="dialog" aria-labelledby="stockpopTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="stockpopTitle">Stock Market Analysis</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>NASDAQ to search company names in the database.</li> 
+                        <li>Yahoo finance is used to fetch the data from through data reader library.</li>
+                        <li>Allows user to enter time-duration and chart type to get display the values.</li>
+                        <li>Stock data is displayed in the form charts and graph which gives a better understanding</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary"> Github </button>
+                      <button type="button" class="btn btn-primary"> Live Demo </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flight Card -->
+            <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded">
+              <img src="flight.PNG" class="card-img-top" alt="Flight Reservarion project"  id="projects-img">
+              <div class="card-body">
+                <h5 class="card-title">Flight Reservation System</h5>
+                <p class="card-text">Spring Boot based application demonstrating an end to end flight reservation system
+                    enabling users from booking flight to checking in on airport.</p>
+              </div>
+              <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#flight-pop">More details... </a></small></div>
+              <!-- Modal -->
+              <div class="modal fade" id="flight-pop" tabindex="-1" role="dialog" aria-labelledby="flightpopTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="flightpopTitle">Stock Market Analysis</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Search flights from destination to arrival.</li> 
+                        <li>Book flight according to requirement.</li>
+                        <li>Admin role to make changes in flight.</li>
+                        <li>Database(MySQL) and different mapping used.</li>
+                        <li>Send iternary on mail and download as pdf</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary"> Github </button>
+                      <button type="button" class="btn btn-primary"> Live Demo </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Card -->
+            <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded">
+              <img src="blog.PNG" class="card-img-top" alt="Flask Blog App"  id="projects-img">
+              <div class="card-body">
+                <h5 class="card-title">Blogging Application</h5>
+                <p class="card-text">App build using Python framework(flask) enables users to post different articles and demonstrate CRUD operations.</p>
+              </div>
+              <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#blog-pop">More details... </a></small></div>
+              <!-- Modal -->
+              <div class="modal fade" id="blog-pop" tabindex="-1" role="dialog" aria-labelledby="blogpopTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="blogpopTitle">Flask Blog App</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Provides a basic infratructure on top of which many applications can be built.</li>
+                        <li>CRUD methodology with SQL connectivity is displayed.</li>
+                        <li>Register and Login features are provided.</li>
+                        <li>Insert new post, delete a post and updation is provided for the repective owner.</li>
+                        <li>Pagination features is also displayed. </li>
+                        <li>Whole app built using flask blueprint making it MVC application (Model View Controller).</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary"> Github </button>
+                      <button type="button" class="btn btn-primary"> Live Demo </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <br><br>
+          <div class="card-deck">
+            <!-- Twitter Card -->
+            <div class="card border-secondary shadow-lg p-3 mb-5 bg-white rounded">
+              <img src="twitter.PNG" class="card-img-top" alt="Twitter Sentimental Analysis"  id="projects-img">
+              <div class="card-body">
+                <h5 class="card-title">Twitter Sentimental Analysis</h5>
+                <p class="card-text">Machine learning based model used to predict the sentiment of a particular tweet by analysing using different models.</p>
+              </div>  
+              <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#twitter-pop">More details... </a></small></div>
+              <!-- Modal -->
+              <div class="modal fade" id="twitter-pop" tabindex="-1" role="dialog" aria-labelledby="twitterpopTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="twitterpopTitle">Twitter Sentimental Analysis</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Pulling test data from csv.</li>
+                        <li>Remove all @user from the tweets.</li>
+                        <li>Tokenizing each tweet and finding stem word for eachone.</li>
+                        <li>Remove small distubencies such as verb and propositions.</li>
+                        <li>Developing different word clouds for positive & negative tweets.</li>
+                        <li>Extracting hashtags and analysing them.</li>
+                        <li>Developing differnet models for prediction and evaluating accuracy score for better understanding.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary"> Github </button>
+                      <button type="button" class="btn btn-primary"> Live Demo </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Wiki Card -->
+            <div class="card border-secondary  shadow-lg p-3 mb-5 bg-white rounded">
+              <img src="wiki.PNG" class="card-img-top" alt="Wikipedia Viewer"  id="projects-img">
+              <div class="card-body">
+                <h5 class="card-title">Wikipedia Viewer</h5>
+                <p class="card-text">Angular based singe page application for seaching different topics based on user choice.</p>
+              </div>
+              <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#wiki-pop">More details... </a></small></div>
+              <!-- Modal -->
+              <div class="modal fade" id="wiki-pop" tabindex="-1" role="dialog" aria-labelledby="wikipopTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="wikipopTitle">Wikipedia Viewer</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Build using Angular and Javascript.</li>
+                        <li>Allows users to search for wiki topics.</li>
+                        <li>Also read random aricles if needed.</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary"> Github </button>
+                      <button type="button" class="btn btn-primary"> Live Demo </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Search Card -->
+            <div class="card border-secondary shadow p-3 mb-5 bg-white rounded">
+                <img src="search.PNG" class="card-img-top" alt="Search Bar"  id="projects-img">
+                <div class="card-body">
+                  <h5 class="card-title">Search Bar</h5>
+                  <p class="card-text">A search bar made using CSS3 for fun.</p>
+                </div>
+                <div class="card-footer border-secondary"><small class="text-muted"><a href="#" data-toggle="modal" data-target="#search-pop">More details... </a></small></div>
+                <!-- Modal -->
+                <div class="modal fade" id="search-pop" tabindex="-1" role="dialog" aria-labelledby="searchpopTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="searchpopTitle">Search Bar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <ul>
+                          <p>Search bar animation made using CSS3.</p>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"> Github </button>
+                        <button type="button" class="btn btn-primary"> Live Demo </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-box">
+        <h1 class="contact-header"> Contact Me </h1>
+        <p class="text-center contact-email">Get in touch with me <i class="fas fa-arrow-right"></i> rahulgarg366@gmail.com</p>
+        <p class="text-center"> or find me on </p>
+        <ul class="text-center contact-sources">
+            <a href="#" id="contact-list"><li><i class="fab fa-codepen"></i> CodePen</li></a>
+            <a href="#" id="contact-list"><li><i class="fab fa-linkedin"></i> LinkedIn</li></a>
+            <a href="#" id="contact-list"><li><i class="fab fa-github"></i> Github</li></a>
+            <a href="#" id="contact-list"><li><i class="fa fa-fire"></i> FreeCodeCamp</li></a>
+            <a href="#" id="contact-list"><li><i class="fab fa-twitter-square"></i> Twitter</li></a>
+          </ul>
+      </div>
+      
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
